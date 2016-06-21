@@ -54,6 +54,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, CLLocationMa
         super.didReceiveMemoryWarning()
     }
     
+    // MARK: Initial setup methods
+    
     func setupLocationManager() {
         
         locationManager = CLLocationManager()
@@ -66,6 +68,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, CLLocationMa
         
         currentView.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5)
     }
+    
+    // MARK: LocationManager methods
     
     func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
         
@@ -89,29 +93,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, CLLocationMa
         SVProgressHUD.dismissWithDelay(1)
         
         callAPI(userLocation.coordinate)
-    }
-    
-    func callAPI(coordinate: CLLocationCoordinate2D) {
-        
-        reverseGeocode(coordinate.latitude, longitude: coordinate.longitude)
-        
-        let latitude = "\(coordinate.latitude)"
-        let longitude = "\(coordinate.longitude)"
-        
-        let url = "\(SERVICE_URL)/\(API_KEY)/\(latitude),\(longitude)"
-        
-        Alamofire.request(.GET, url).validate().responseJSON { response in
-            switch response.result {
-            case .Success:
-                if let value = response.result.value {
-                    
-                    let json = JSON(value)
-                    self.parse(json)
-                }
-            case .Failure(let error):
-                print(error)
-            }
-        }
     }
     
     func reverseGeocode(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
@@ -140,6 +121,31 @@ class ViewController: UIViewController, UICollectionViewDataSource, CLLocationMa
         })
     }
     
+    // MARK: API call, response parsing and UI updating
+    
+    func callAPI(coordinate: CLLocationCoordinate2D) {
+        
+        reverseGeocode(coordinate.latitude, longitude: coordinate.longitude)
+        
+        let latitude = "\(coordinate.latitude)"
+        let longitude = "\(coordinate.longitude)"
+        
+        let url = "\(SERVICE_URL)/\(API_KEY)/\(latitude),\(longitude)"
+        
+        Alamofire.request(.GET, url).validate().responseJSON { response in
+            switch response.result {
+            case .Success:
+                if let value = response.result.value {
+                    
+                    let json = JSON(value)
+                    self.parse(json)
+                }
+            case .Failure(let error):
+                print(error)
+            }
+        }
+    }
+    
     func parse(response: JSON) {
         
         let currently = response["currently"]
@@ -165,6 +171,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, CLLocationMa
         windDirectionLabel.text = translateWind(currently["windBearing"].intValue)
         precipProbabiltyLabel.text = formatPrecipitation(currently["precipProbability"].floatValue)
     }
+    
+    // MARK: Formatting, conversion and translation methods
     
     func formatTemperature(temperature: Int) -> String {
         
@@ -208,6 +216,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, CLLocationMa
         }
     }
     
+    // MARK: CollectionView delegate methods
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return daily.count
@@ -230,6 +240,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, CLLocationMa
         
         return viewCell
     }
+    
+    // MARK: UI interaction
 
     @IBAction func refreshTouched(sender: AnyObject) {
         

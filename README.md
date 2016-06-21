@@ -36,9 +36,16 @@ Your time is valuable and we understand that.  Our goal is for you to spend abou
 Please answer the following in about a paragraph.
 
 1.  How long did you spend on completing this challenge?
+- 7 hours
 2.  How far were you at 3 hours?
+- Basic implementation takes less than 3 hours, unexpected dependency problems and UI tuning may take way longer...
 3.  What needs to be finished/fixed for this to be use in a production app?
+- Modularize location, API and info formatting components; some additional logic for location acquisition, setting configs on Dev center and configuration of provisioning and app signing (certificates)
 4.  What did you think of this challenge?
+- It's great for testing some layout and interface orientation problems
 5.  What part was unclear?
+- Persistence may not be mandatory, although some caching on location lookup may be revised. There's a green indicator without a clear purpose.
 6.  What could we do to make this challenge better?
+- Figuring out a way to enforce persistence and maybe adding another service to be consumed by the background image
 7.  What did we forget to test you on?
+- Media handling, some concurrency like GCD and operation queues, persistence, different UI elements like selectors, sliders and pickers; navigation and UI instantiation.
