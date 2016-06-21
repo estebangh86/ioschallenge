@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D47CB223EB6DAF028ED15CF66D3CC84"
+               BlueprintIdentifier = "E45F608D8CF7C77BA617354CB33AB7EE"
                BuildableName = "Pods_KnomaticChallenge.framework"
                BlueprintName = "Pods-KnomaticChallenge"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D47CB223EB6DAF028ED15CF66D3CC84"
+            BlueprintIdentifier = "E45F608D8CF7C77BA617354CB33AB7EE"
             BuildableName = "Pods_KnomaticChallenge.framework"
             BlueprintName = "Pods-KnomaticChallenge"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		193083B87723EAA4FCC053D4 /* Pods-KnomaticChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnomaticChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnomaticChallenge/Pods-KnomaticChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		6C6A1F361D19247C00EF5936 /* KnomaticChallenge-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KnomaticChallenge-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		6C9B7DD71D18C3DB00DCF98D /* KnomaticChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnomaticChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9B7DDA1D18C3DB00DCF98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C9B7DDC1D18C3DB00DCF98D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 				6C9B7DE11D18C3DB00DCF98D /* Assets.xcassets */,
 				6C9B7DE31D18C3DB00DCF98D /* LaunchScreen.storyboard */,
 				6C9B7DE61D18C3DB00DCF98D /* Info.plist */,
+				6C6A1F361D19247C00EF5936 /* KnomaticChallenge-Bridging-Header.h */,
 			);
 			path = KnomaticChallenge;
 			sourceTree = "<group>";
@@ -479,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KnomaticChallenge-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -491,6 +494,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KnomaticChallenge-Bridging-Header.h";
 			};
 			name = Release;
 		};
