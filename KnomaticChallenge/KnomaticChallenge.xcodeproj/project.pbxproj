@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F4499D3AC3598F1612F516 /* Pods_KnomaticChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E0FF3355BA0BC965231FBA /* Pods_KnomaticChallenge.framework */; };
+		6C9B7DDB1D18C3DB00DCF98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B7DDA1D18C3DB00DCF98D /* AppDelegate.swift */; };
+		6C9B7DDD1D18C3DB00DCF98D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B7DDC1D18C3DB00DCF98D /* ViewController.swift */; };
+		6C9B7DE01D18C3DB00DCF98D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9B7DDE1D18C3DB00DCF98D /* Main.storyboard */; };
+		6C9B7DE21D18C3DB00DCF98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9B7DE11D18C3DB00DCF98D /* Assets.xcassets */; };
+		6C9B7DE51D18C3DB00DCF98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9B7DE31D18C3DB00DCF98D /* LaunchScreen.storyboard */; };
+		6C9B7DF01D18C3DB00DCF98D /* KnomaticChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B7DEF1D18C3DB00DCF98D /* KnomaticChallengeTests.swift */; };
+		6C9B7DFB1D18C3DC00DCF98D /* KnomaticChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B7DFA1D18C3DC00DCF98D /* KnomaticChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C9B7DEC1D18C3DB00DCF98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9B7DCF1D18C3DB00DCF98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C9B7DD61D18C3DB00DCF98D;
+			remoteInfo = KnomaticChallenge;
+		};
+		6C9B7DF71D18C3DC00DCF98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C9B7DCF1D18C3DB00DCF98D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C9B7DD61D18C3DB00DCF98D;
+			remoteInfo = KnomaticChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193083B87723EAA4FCC053D4 /* Pods-KnomaticChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnomaticChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnomaticChallenge/Pods-KnomaticChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		6C9B7DD71D18C3DB00DCF98D /* KnomaticChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnomaticChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9B7DDA1D18C3DB00DCF98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C9B7DDC1D18C3DB00DCF98D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C9B7DDF1D18C3DB00DCF98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C9B7DE11D18C3DB00DCF98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C9B7DE41D18C3DB00DCF98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C9B7DE61D18C3DB00DCF98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9B7DEB1D18C3DB00DCF98D /* KnomaticChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnomaticChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9B7DEF1D18C3DB00DCF98D /* KnomaticChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnomaticChallengeTests.swift; sourceTree = "<group>"; };
+		6C9B7DF11D18C3DB00DCF98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9B7DF61D18C3DC00DCF98D /* KnomaticChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnomaticChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9B7DFA1D18C3DC00DCF98D /* KnomaticChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnomaticChallengeUITests.swift; sourceTree = "<group>"; };
+		6C9B7DFC1D18C3DC00DCF98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3285D7D8A090F0714C2337 /* Pods-KnomaticChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnomaticChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnomaticChallenge/Pods-KnomaticChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E0FF3355BA0BC965231FBA /* Pods_KnomaticChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnomaticChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C9B7DD41D18C3DB00DCF98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F4499D3AC3598F1612F516 /* Pods_KnomaticChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9B7DE81D18C3DB00DCF98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9B7DF31D18C3DC00DCF98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D93B7DF15F3AA37E8C4A5C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0FF3355BA0BC965231FBA /* Pods_KnomaticChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614811992E1523E79C1015B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D3285D7D8A090F0714C2337 /* Pods-KnomaticChallenge.debug.xcconfig */,
+				193083B87723EAA4FCC053D4 /* Pods-KnomaticChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C9B7DCE1D18C3DB00DCF98D = {
+			isa = PBXGroup;
+			children = (
+				6C9B7DD91D18C3DB00DCF98D /* KnomaticChallenge */,
+				6C9B7DEE1D18C3DB00DCF98D /* KnomaticChallengeTests */,
+				6C9B7DF91D18C3DC00DCF98D /* KnomaticChallengeUITests */,
+				6C9B7DD81D18C3DB00DCF98D /* Products */,
+				614811992E1523E79C1015B0 /* Pods */,
+				5D93B7DF15F3AA37E8C4A5C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C9B7DD81D18C3DB00DCF98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C9B7DD71D18C3DB00DCF98D /* KnomaticChallenge.app */,
+				6C9B7DEB1D18C3DB00DCF98D /* KnomaticChallengeTests.xctest */,
+				6C9B7DF61D18C3DC00DCF98D /* KnomaticChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9B7DD91D18C3DB00DCF98D /* KnomaticChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				6C9B7DDA1D18C3DB00DCF98D /* AppDelegate.swift */,
+				6C9B7DDC1D18C3DB00DCF98D /* ViewController.swift */,
+				6C9B7DDE1D18C3DB00DCF98D /* Main.storyboard */,
+				6C9B7DE11D18C3DB00DCF98D /* Assets.xcassets */,
+				6C9B7DE31D18C3DB00DCF98D /* LaunchScreen.storyboard */,
+				6C9B7DE61D18C3DB00DCF98D /* Info.plist */,
+			);
+			path = KnomaticChallenge;
+			sourceTree = "<group>";
+		};
+		6C9B7DEE1D18C3DB00DCF98D /* KnomaticChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C9B7DEF1D18C3DB00DCF98D /* KnomaticChallengeTests.swift */,
+				6C9B7DF11D18C3DB00DCF98D /* Info.plist */,
+			);
+			path = KnomaticChallengeTests;
+			sourceTree = "<group>";
+		};
+		6C9B7DF91D18C3DC00DCF98D /* KnomaticChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C9B7DFA1D18C3DC00DCF98D /* KnomaticChallengeUITests.swift */,
+				6C9B7DFC1D18C3DC00DCF98D /* Info.plist */,
+			);
+			path = KnomaticChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C9B7DD61D18C3DB00DCF98D /* KnomaticChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9B7DFF1D18C3DC00DCF98D /* Build configuration list for PBXNativeTarget "KnomaticChallenge" */;
+			buildPhases = (
+				0B1122EA7A2A9DA2D5FFD7B6 /* [CP] Check Pods Manifest.lock */,
+				6C9B7DD31D18C3DB00DCF98D /* Sources */,
+				6C9B7DD41D18C3DB00DCF98D /* Frameworks */,
+				6C9B7DD51D18C3DB00DCF98D /* Resources */,
+				76DEF6AC32162DD0A3EAE1EE /* [CP] Embed Pods Frameworks */,
+				56099C9D7B28E948DEE57844 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnomaticChallenge;
+			productName = KnomaticChallenge;
+			productReference = 6C9B7DD71D18C3DB00DCF98D /* KnomaticChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C9B7DEA1D18C3DB00DCF98D /* KnomaticChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9B7E021D18C3DC00DCF98D /* Build configuration list for PBXNativeTarget "KnomaticChallengeTests" */;
+			buildPhases = (
+				6C9B7DE71D18C3DB00DCF98D /* Sources */,
+				6C9B7DE81D18C3DB00DCF98D /* Frameworks */,
+				6C9B7DE91D18C3DB00DCF98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9B7DED1D18C3DB00DCF98D /* PBXTargetDependency */,
+			);
+			name = KnomaticChallengeTests;
+			productName = KnomaticChallengeTests;
+			productReference = 6C9B7DEB1D18C3DB00DCF98D /* KnomaticChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C9B7DF51D18C3DC00DCF98D /* KnomaticChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9B7E051D18C3DC00DCF98D /* Build configuration list for PBXNativeTarget "KnomaticChallengeUITests" */;
+			buildPhases = (
+				6C9B7DF21D18C3DC00DCF98D /* Sources */,
+				6C9B7DF31D18C3DC00DCF98D /* Frameworks */,
+				6C9B7DF41D18C3DC00DCF98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C9B7DF81D18C3DC00DCF98D /* PBXTargetDependency */,
+			);
+			name = KnomaticChallengeUITests;
+			productName = KnomaticChallengeUITests;
+			productReference = 6C9B7DF61D18C3DC00DCF98D /* KnomaticChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C9B7DCF1D18C3DB00DCF98D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Esteban Garcia Henao";
+				TargetAttributes = {
+					6C9B7DD61D18C3DB00DCF98D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6C9B7DEA1D18C3DB00DCF98D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6C9B7DD61D18C3DB00DCF98D;
+					};
+					6C9B7DF51D18C3DC00DCF98D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6C9B7DD61D18C3DB00DCF98D;
+					};
+				};
+			};
+			buildConfigurationList = 6C9B7DD21D18C3DB00DCF98D /* Build configuration list for PBXProject "KnomaticChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C9B7DCE1D18C3DB00DCF98D;
+			productRefGroup = 6C9B7DD81D18C3DB00DCF98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C9B7DD61D18C3DB00DCF98D /* KnomaticChallenge */,
+				6C9B7DEA1D18C3DB00DCF98D /* KnomaticChallengeTests */,
+				6C9B7DF51D18C3DC00DCF98D /* KnomaticChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C9B7DD51D18C3DB00DCF98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9B7DE51D18C3DB00DCF98D /* LaunchScreen.storyboard in Resources */,
+				6C9B7DE21D18C3DB00DCF98D /* Assets.xcassets in Resources */,
+				6C9B7DE01D18C3DB00DCF98D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9B7DE91D18C3DB00DCF98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9B7DF41D18C3DC00DCF98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1122EA7A2A9DA2D5FFD7B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56099C9D7B28E948DEE57844 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnomaticChallenge/Pods-KnomaticChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76DEF6AC32162DD0A3EAE1EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnomaticChallenge/Pods-KnomaticChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C9B7DD31D18C3DB00DCF98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9B7DDD1D18C3DB00DCF98D /* ViewController.swift in Sources */,
+				6C9B7DDB1D18C3DB00DCF98D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9B7DE71D18C3DB00DCF98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9B7DF01D18C3DB00DCF98D /* KnomaticChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C9B7DF21D18C3DC00DCF98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9B7DFB1D18C3DC00DCF98D /* KnomaticChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C9B7DED1D18C3DB00DCF98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C9B7DD61D18C3DB00DCF98D /* KnomaticChallenge */;
+			targetProxy = 6C9B7DEC1D18C3DB00DCF98D /* PBXContainerItemProxy */;
+		};
+		6C9B7DF81D18C3DC00DCF98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C9B7DD61D18C3DB00DCF98D /* KnomaticChallenge */;
+			targetProxy = 6C9B7DF71D18C3DC00DCF98D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C9B7DDE1D18C3DB00DCF98D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9B7DDF1D18C3DB00DCF98D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C9B7DE31D18C3DB00DCF98D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9B7DE41D18C3DB00DCF98D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C9B7DFD1D18C3DC00DCF98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C9B7DFE1D18C3DC00DCF98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C9B7E001D18C3DC00DCF98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3285D7D8A090F0714C2337 /* Pods-KnomaticChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KnomaticChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C9B7E011D18C3DC00DCF98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193083B87723EAA4FCC053D4 /* Pods-KnomaticChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KnomaticChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C9B7E031D18C3DC00DCF98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KnomaticChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnomaticChallenge.app/KnomaticChallenge";
+			};
+			name = Debug;
+		};
+		6C9B7E041D18C3DC00DCF98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KnomaticChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnomaticChallenge.app/KnomaticChallenge";
+			};
+			name = Release;
+		};
+		6C9B7E061D18C3DC00DCF98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KnomaticChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KnomaticChallenge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6C9B7E071D18C3DC00DCF98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KnomaticChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estebangh.KnomaticChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KnomaticChallenge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C9B7DD21D18C3DB00DCF98D /* Build configuration list for PBXProject "KnomaticChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9B7DFD1D18C3DC00DCF98D /* Debug */,
+				6C9B7DFE1D18C3DC00DCF98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9B7DFF1D18C3DC00DCF98D /* Build configuration list for PBXNativeTarget "KnomaticChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9B7E001D18C3DC00DCF98D /* Debug */,
+				6C9B7E011D18C3DC00DCF98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9B7E021D18C3DC00DCF98D /* Build configuration list for PBXNativeTarget "KnomaticChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9B7E031D18C3DC00DCF98D /* Debug */,
+				6C9B7E041D18C3DC00DCF98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9B7E051D18C3DC00DCF98D /* Build configuration list for PBXNativeTarget "KnomaticChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9B7E061D18C3DC00DCF98D /* Debug */,
+				6C9B7E071D18C3DC00DCF98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C9B7DCF1D18C3DB00DCF98D /* Project object */;
+}
